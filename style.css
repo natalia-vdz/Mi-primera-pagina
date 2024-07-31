@@ -1,0 +1,95 @@
+
+body {
+    background-color: rgb(228, 254, 246);
+    background-image: url('Tablero1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    background: rgba(255, 255, 255, 0.544); /* Blanco con 80% de opacidad */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+}
+
+#título {
+    font-size: 55px;text-align: center; color: rgb(0, 43, 129);
+}
+
+#titulo2{
+    text-align: center;
+}
+
+#navegacion-container {
+    background-color: #f097d873; /* Color de fondo del rectángulo */
+    padding: 3px 0; /* Espacio arriba y abajo */
+    border-radius: 8px; /* Esquinas redondeadas */
+    margin: 0 auto; /* Centra el contenedor */
+    max-width: 6000px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+/* Estilo para la lista de navegación */
+#navegacion {
+    text-align: center; /* Alinea los elementos de lista horizontalmente */
+    list-style-type: none; /* Elimina los estilos de lista por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Estilo para los elementos de la lista de navegación */
+#navegacion li {
+    display: inline-block; /* Mantiene los elementos de lista como bloques en línea */
+    margin: 10 10px; /* Margen opcional entre elementos de lista */
+}
+
+/* Estilo para los enlaces de navegación */
+#navegacion a {
+    color: rgb(142, 77, 132); /* Color del texto */
+    font-size: 22px; /* Tamaño de fuente */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 15px; /* Espacio interno alrededor del texto */
+    display: inline-block; /* Asegura que el padding funcione correctamente */
+    border-radius: 5px; /* Esquinas redondeadas para los enlaces */
+}
+
+/* Estilo para los enlaces cuando se pasa el ratón por encima */
+#navegacion a:hover {
+    background-color: #e2bae9; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.texto{
+    text-align: justify;font-size: 20px; margin: 40px; line-height: 28px;
+}
+
+
+.algae{
+    text-align: center;
+    display: inline-block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 5px auto; /* Centra las imágenes horizontalmente y agrega margen arriba y abajo */
+    border: 10px solid rgb(196, 255, 236); /* Ajusta el color y tamaño del borde según tus necesidades */
+    max-width: 100%; /* Asegura que las imágenes no se agranden más allá de su tamaño original */
+    width: 250px; height: 250px;
+}
+.carac {
+    display: block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 5px auto; /* Centra las imágenes horizontalmente */
+    border: 10px solid rgb(175, 184, 255); /* Ajusta el color y tamaño del borde según tus necesidades */
+    max-width: 100%; /* Asegura que las imágenes no se agranden más allá de su tamaño original */
+    height: 250px;
+}
+
+.centrado{
+    text-align: center; /* Centra horizontalmente las imágenes */
+    margin-top: 0px; /* Espacio superior */
+}
+.species {
+    display: inline-block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 5px auto; /* Centra las imágenes horizontalmente y agrega margen arriba y abajo */
+    border: 10px solid rgb(250, 183, 255); /* Ajusta el color y tamaño del borde según tus necesidades */
+    max-width: 100%; /* Asegura que las imágenes no se agranden más allá de su tamaño original */
+    height: 250px;
+}
